@@ -1,0 +1,106 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Button = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.225098476, 0, 0.278751731, 0)
+Frame.Size = UDim2.new(0, 560, 0, 269)
+Frame.Style = Enum.FrameStyle.RobloxRound
+
+Button.Name = "Button"
+Button.Parent = Frame
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0328127742, 0, 0.112596422, 0)
+Button.Size = UDim2.new(0, 119, 0, 27)
+Button.Style = Enum.ButtonStyle.RobloxRoundButton
+Button.Font = Enum.Font.SourceSansBold
+Button.Text = "Color"
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextSize = 14.000
+
+Frame_2.Parent = Button
+Frame_2.BackgroundColor3 = Color3.fromRGB(153, 150, 148)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 159, 25)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(1.2781049, 0, -3.9838624, 0)
+Frame_2.Size = UDim2.new(0, 376, 0, 188)
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0505319163, 0, 0.0478723422, 0)
+TextButton.Size = UDim2.new(0, 155, 0, 24)
+TextButton.Style = Enum.ButtonStyle.RobloxRoundButton
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Purple"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.46808511, 0, 0.0478723422, 0)
+TextButton_2.Size = UDim2.new(0, 155, 0, 24)
+TextButton_2.Style = Enum.ButtonStyle.RobloxRoundButton
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "Bright Yellow"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0505319163, 0, 0.223404258, 0)
+TextButton_3.Size = UDim2.new(0, 155, 0, 24)
+TextButton_3.Style = Enum.ButtonStyle.RobloxRoundButton
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "Plum Purple"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0335595272, 0, 0.258474916, 0)
+TextButton_4.Size = UDim2.new(0, 120, 0, 29)
+TextButton_4.Style = Enum.ButtonStyle.RobloxRoundButton
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+Frame_3.Parent = TextButton_4
+Frame_3.BackgroundColor3 = Color3.fromRGB(153, 150, 148)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(1.26039195, 0, -9.83594322, 0)
+Frame_3.Size = UDim2.new(0, 375, 0, 205)
+
+TextButton_5.Parent = Frame_3
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.0506666675, 0, 0.073170729, 0)
+TextButton_5.Size = UDim2.new(0, 129, 0, 22)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
